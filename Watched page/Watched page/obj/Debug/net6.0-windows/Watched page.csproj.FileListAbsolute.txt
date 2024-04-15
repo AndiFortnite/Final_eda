@@ -1,0 +1,25 @@
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched page.csproj.AssemblyReference.cache
+H:\Watched page\Watched page\bin\Debug\net6.0-windows\Watched page.exe
+H:\Watched page\Watched page\bin\Debug\net6.0-windows\Watched page.deps.json
+H:\Watched page\Watched page\bin\Debug\net6.0-windows\Watched page.runtimeconfig.json
+H:\Watched page\Watched page\bin\Debug\net6.0-windows\Watched page.dll
+H:\Watched page\Watched page\bin\Debug\net6.0-windows\Watched page.pdb
+H:\Watched page\Watched page\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+H:\Watched page\Watched page\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+H:\Watched page\Watched page\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+H:\Watched page\Watched page\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+H:\Watched page\Watched page\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\Watched page\Watched page\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched_page.Watched.resources
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched_page.Properties.Resources.resources
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched page.csproj.GenerateResource.cache
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched page.GeneratedMSBuildEditorConfig.editorconfig
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched page.AssemblyInfoInputs.cache
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched page.AssemblyInfo.cs
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched page.csproj.CoreCompileInputs.cache
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched page.csproj.CopyComplete
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched page.dll
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\refint\Watched page.dll
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched page.pdb
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\Watched page.genruntimeconfig.cache
+H:\Watched page\Watched page\obj\Debug\net6.0-windows\ref\Watched page.dll
