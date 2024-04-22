@@ -1,3 +1,4 @@
+
 using System.Data;
 using System.Drawing;
 using System.Data.SqlClient;
@@ -6,6 +7,8 @@ namespace Watched_page
 {
     public partial class Watched : Form
     {
+
+       // UserID =
         public Watched()
         {
             InitializeComponent();
@@ -74,7 +77,7 @@ namespace Watched_page
 
                 string genre = GenreCbox.SelectedItem?.ToString();
 
-                string query = "SELECT * FROM Movies WHERE (genre IS NULL OR genre = @genre) AND status = 'watched'";
+                string query = "SELECT WatchList.movieID, Movies.title, Movies.genre, Movies.duration_min, Movies.year, Movies.director, Movies.language  From WatchList INNER JOIN Movies ON WatchList.movieID = Movies.movieID WHERE WatchList.userID=@userID AND WatchList.status='watched' AND (genre IS NULL OR genre = @genre)";
 
                 // Set the order by clause based on the A_Z flag
                 if (!A_Z)
@@ -87,20 +90,22 @@ namespace Watched_page
                 }
 
                 SqlCommand cmd = new SqlCommand(query, sqlCon);
+               // cmd.Parameters.AddWithValue("@userID", userID);
 
                 if (!string.IsNullOrEmpty(genre))
                 {
                     cmd.Parameters.AddWithValue("@genre", genre);
+                    
                 }
                 else
                 {
                     if (A_Z)
                     {
-                        query = "SELECT * FROM Movies WHERE status = 'watched' Order by title ASC";
+                        query = "SELECT WatchList.movieID, Movies.title, Movies.genre, Movies.duration_min, Movies.year, Movies.director, Movies.language  From WatchList INNER JOIN Movies ON WatchList.movieID = Movies.movieID WHERE WatchList.userID=1 AND WatchList.status='wacthed'  Order by title ASC";
                     }
                     else
                     {
-                        query = "SELECT * FROM Movies WHERE status = 'watched' Order by title DESC";
+                        query = "SELECT WatchList.movieID, Movies.title, Movies.genre, Movies.duration_min, Movies.year, Movies.director, Movies.language  From WatchList INNER JOIN Movies ON WatchList.movieID = Movies.movieID WHERE WatchList.userID=1 AND WatchList.status='wacthed'  Order by title DESC";
                     }
 
                 }
